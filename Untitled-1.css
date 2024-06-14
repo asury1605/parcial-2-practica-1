@@ -1,0 +1,53 @@
+
+body {
+    background-image: url('IMAGEN.png'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    background: rgba(230, 117, 117, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo para el encabezado de las tarjetas */
+.card-header {
+    background-color: #1c85f5;
+    color: rgb(14, 13, 13);
+}
+
+/* Estilo para los elementos de la lista */
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo para tareas completadas */
+.task-completed {
+    background-color: #2de758;
+    color: rgb(14, 13, 13);
+}
+
+/* Estilo para tareas expiradas */
+.task-expired {
+    background-color: #db2436;
+    color: rgb(14, 13, 13);
+}
+
+/* Estilo para tareas pendientes */
+.task-pending {
+    background-color: #ffc107;
+    color: black;
+}
+
+/* Estilo para el mensaje de error */
+#error-message {
+    margin-top: 10px;
+}
